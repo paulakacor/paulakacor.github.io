@@ -133,6 +133,36 @@ background-color: #ccc;
 
 }
 
+#Content .content-section {
+    width: 800px;
+    padding: 64px 0 ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Content .section-heading{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 3px;
+    
+}
+
+#Content .section-sub-heading {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#Content .about-text{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
 #footer{
 
 }
