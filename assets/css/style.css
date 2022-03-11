@@ -167,6 +167,7 @@ background-color: #ccc;
 
 #Content .members-list{
     margin-top: 48px ;
+    overflow: hidden;
 }
 
 #Content .members-item{
@@ -182,23 +183,31 @@ background-color: #ccc;
    
     
 }
-/* #Content .members-list .members-item a {
+ #Content .members-item a {
     text-decoration: none;
     display: block;
     color: #000;
-    background-color: rgba(116, 103, 35, 0.2);
+    /* background-color: rgba(116, 103, 35, 0.2); */
    text-align: center;
-    
-} */
+   margin: 0 20px;
+   
+} 
 
+#Content .members-item button {
+    display: block;
+    background-color: rgba(116, 103, 35, 0.2);
+    text-align: center;
+    margin: 0 80px;
+    box-sizing: initial;
+  
+} 
 
-
-
-#Content .member-img {
+ #Content .member-img {
    margin-top: 15px;
    width: 154px;
    display: block;
-   text-align: center;
+   margin-left: 56.333px;
+   border-radius: 5px;
 }
 
 #footer{
