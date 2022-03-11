@@ -22,6 +22,7 @@ html{
     z-index: 1;
 
 
+
 }
 
 #nav{
@@ -135,9 +136,10 @@ background-color: #ccc;
 
 #Content .content-section {
     width: 800px;
-    padding: 64px 0 ;
+    padding-top: 64px;
     margin-left: auto;
     margin-right: auto;
+    display: block;
 }
 
 #Content .section-heading{
@@ -152,15 +154,51 @@ background-color: #ccc;
     font-size: 15px;
     text-align: center;
     margin-top: 25px;
-    margin-bottom: 25px;
     font-style: italic;
     opacity: 0.6;
 }
 
 #Content .about-text{
+    margin-top: 25px;
     font-size: 15px;
     text-align: justify;
     line-height: 1.6;
+}
+
+#Content .members-list{
+    margin-top: 48px ;
+}
+
+#Content .members-item{
+    display: block;
+    float: left;
+    width: 33.333333%;
+    align-items: center;
+}
+
+#Content .members-name{
+
+    font-size: 18px;
+   
+    
+}
+/* #Content .members-list .members-item a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+    background-color: rgba(116, 103, 35, 0.2);
+   text-align: center;
+    
+} */
+
+
+
+
+#Content .member-img {
+   margin-top: 15px;
+   width: 154px;
+   display: block;
+   text-align: center;
 }
 
 #footer{
