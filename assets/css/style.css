@@ -139,15 +139,30 @@ background-color: #ccc;
     font-size: 13px;
 }
 
+
+#header .mobile-menu-btn,
 #header .search-btn {
  float: right;
  line-height: 46px;
     padding: 0 24px;
 }
 
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+    cursor: pointer;
+    color: #000;
+}
+
+
 #header .search-btn:hover{
     background-color: #f44336;
     cursor: pointer;
+}
+
+#header .mobile-menu-btn{
+    color: #fff;
+    font-size: 16px;
+    display: none;
 }
 
 #header .search-icon{
@@ -192,11 +207,14 @@ background-color: #ccc;
 
 #Content .content-section {
     width: 800px;
+    max-width: 100%;
     padding-top: 64px;
     padding-bottom: 112px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #Content .section-heading{
@@ -223,7 +241,7 @@ background-color: #ccc;
 }
 
 #Content .members-list{
-    margin-top: 48px ;
+    margin-top: 32px ;
     overflow: hidden;
 }
 
@@ -305,7 +323,7 @@ background-color: #ccc;
 }
 
 .places-list{
-    margin-top: 32px;
+    margin-top: 16px;
     overflow: hidden;    
 }
 
@@ -357,6 +375,7 @@ background-color: #ccc;
     margin-top: 15px;
     opacity: 0.9;
     border: none;
+    text-align: center;
 
 }
 
@@ -378,6 +397,15 @@ background-color: #ccc;
 .contact-inf i{
    width: 30px;
    display: inline-block;
+}
+
+.contact-inf a{
+    color:#101aef;
+    opacity: 0.8;
+}
+
+.contact-inf a:hover{
+    opacity: 1;
 }
 
 .contact-form{
