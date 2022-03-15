@@ -19,9 +19,27 @@ html{
     text-align: center;!important
 }
 
+.mt-8{
+    margin-top: 8px; !important
+}
+
+.mt-16{
+    margin-top: 16px; !important
+}
+
+.pull-right{
+    float: right; !important
+}
+
 .row{
     margin-left: -8px;
     margin-right: -8px;
+}
+
+.row::after{
+    content:"";
+    display: block;
+    clear:both;
 }
 
 .col{
@@ -36,6 +54,10 @@ html{
 
 .col-half{
     width: 50%;
+}
+
+.col-full{
+    width: 100%;
 }
 
 
@@ -283,9 +305,7 @@ background-color: #ccc;
 
 .places-list{
     margin-top: 32px;
-    overflow: hidden;
-    padding-bottom: 32px;
-    
+    overflow: hidden;    
 }
 
 .place-item{
@@ -335,16 +355,88 @@ background-color: #ccc;
     display: inline-block;
     margin-top: 15px;
     opacity: 0.9;
+    border: none;
 
 }
 
 .place-buy:hover{
+    cursor: pointer;
     color: #000;
     background-color: #ccc;
 }
 
+.contact-content{
+    margin-top: 48px;
+}
 
+.contact-inf{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-inf i{
+   width: 30px;
+   display: inline-block;
+}
+
+.contact-form{
+    font-size: 15px;
+}
+
+.contact-form .form-control{
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.contact-form .form-submit-btn{
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 16px;
+    float: right;
+}
+
+.map-section .map{
+    width: 100%;
+}
 
 #footer{
-
+    padding: 64px 16px;
+    text-align: center;
 }
+
+#footer .social-list {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .social-list img {
+    width: 24px;
+    height: 25px;
+}
+
+#footer .social-list a{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+#footer .social-list a:hover{
+    opacity: 0.3;
+}
+
+#footer .copyright {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 1);
+}
+
+#footer .copyright a {
+    color: rgba(25, 0, 246, 0.6);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#footer .copyright a:hover{
+    color: rgba(120, 109, 243, 0.6);
+}
+
+
