@@ -191,12 +191,14 @@ background-color: #ccc;
 #slider .text-heading{
     font-weight: 600;
     font-size: 30px;
+    text-shadow: 0 0 1px #000; 
 
 }
 
 #slider .text-description{
     font-size: 15px;
     margin-top: 18px;
+    text-shadow: 0 0 1px #000;
 
 }
 

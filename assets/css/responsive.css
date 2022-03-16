@@ -95,6 +95,13 @@
         display: none;
     }
 
+    #slider .text-heading,
+    #slider .text-description{
+        display: none;
+    }
+
+
+
     #Content .member-img {
         width: 70%;
     }
