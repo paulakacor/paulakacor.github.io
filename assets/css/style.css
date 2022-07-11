@@ -470,4 +470,9 @@ background-color: #ccc;
     color: rgba(120, 109, 243, 0.6);
 }
 
-
+.content-section .letter {
+    text-decoration: none;
+    color: pink;
+    padding-top: 16px;
+    display: block;
+}
